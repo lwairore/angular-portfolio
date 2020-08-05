@@ -1,3 +1,9 @@
-<lwkp-contact-me></lwkp-contact-me>
-<lwkp-header></lwkp-header>
+<lwkp-contact-me *ngIf="!loading"></lwkp-contact-me>
+<lwkp-header *ngIf="!loading"></lwkp-header>
 <router-outlet></router-outlet>
+ <!-- Page loading styles-->
+ <div [hidden]="!loading" class="cs-page-loading active">
+    <div class="cs-page-loading-inner">
+      <div class="cs-page-spinner"></div><span>Loading...</span>
+    </div>
+  </div>
