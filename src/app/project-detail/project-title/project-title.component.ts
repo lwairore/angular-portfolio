@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Project } from '../../shared/project';
 
 @Component({
   selector: 'lwkp-project-title',
@@ -7,6 +8,14 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class ProjectTitleComponent implements OnInit {
+  @Input() projectDetails: {
+    heading: string,
+    tags:
+    {
+      title: string,
+      slug: string
+    }[]
+  };
 
   constructor() { }
 
