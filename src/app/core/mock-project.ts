@@ -7,7 +7,9 @@ export const PROJECTS: Project[] = [
         tags: [
             {
                 title: `Flask`,
-                slug: `flask`
+                slug: `flask`,
+                resourceURL: `https://en.wikipedia.org/wiki/Flask_(web_framework)`,
+                description: `Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.`
             }
         ],
         portfolioThumb: '/assets/img/portfolio/pitch.png',
@@ -23,7 +25,9 @@ export const PROJECTS: Project[] = [
         tags: [
             {
                 title: `Django`,
-                slug: `django`
+                slug: `django`,
+                resourceURL: `https://www.djangoproject.com/`,
+                description: `Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.`
             }
         ],
         portfolioThumb: `/assets/img/portfolio/instaclone.png`,
@@ -39,7 +43,9 @@ export const PROJECTS: Project[] = [
         tags: [
             {
                 title: `Flask`,
-                slug: `flask`
+                slug: `flask`,
+                resourceURL: `https://en.wikipedia.org/wiki/Flask_(web_framework)`,
+                description: `Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.`
             }
         ],
         portfolioThumb: `/assets/img/portfolio/news-highlights.png`,
@@ -55,19 +61,27 @@ export const PROJECTS: Project[] = [
         tags: [
             {
                 title: `Javascript`,
-                slug: `javascript`
+                slug: `javascript`,
+                resourceURL: `https://en.wikipedia.org/wiki/JavaScript`,
+                description: `JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions. `
             },
             {
                 title: `HTML`,
-                slug: `hmtl`
+                slug: `hmtl`,
+                resourceURL: `https://en.wikipedia.org/wiki/HTML`,
+                description: `Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.`
             },
             {
                 title: `CSS`,
-                slug: `css`
+                slug: `css`,
+                resourceURL: `https://en.wikipedia.org/wiki/Cascading_Style_Sheets/`,
+                description: `Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.`
             },
             {
                 title: `Bootstrap`,
-                slug: `bootstrap`
+                slug: `bootstrap`,
+                resourceURL: `https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)`,
+                description: `Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.`
             }],
         portfolioThumb: `/assets/img/portfolio/pig-dice.png`,
         liveLink: `http://localhost:4200/`,
@@ -82,7 +96,9 @@ export const PROJECTS: Project[] = [
         tags: [
             {
                 title: `Angular`,
-                slug: `angular`
+                slug: `angular`,
+                resourceURL: `https://en.wikipedia.org/wiki/Angular_(web_framework)`,
+                description: `Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS. `
             }
         ],
         portfolioThumb: `/assets/img/portfolio/quotes.png`,
@@ -97,16 +113,28 @@ export const PROJECTS: Project[] = [
         slug: `quiz-board`,
         tags: [
             {
-                title: `JavaScript`,
-                slug: `javascript`
+                title: `Javascript`,
+                slug: `javascript`,
+                resourceURL: `https://en.wikipedia.org/wiki/JavaScript`,
+                description: `JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions. `
             },
             {
                 title: `HTML`,
-                slug: `html`
+                slug: `hmtl`,
+                resourceURL: `https://en.wikipedia.org/wiki/HTML`,
+                description: `Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.`
             },
             {
                 title: `CSS`,
-                slug: `css`
+                slug: `css`,
+                resourceURL: `https://en.wikipedia.org/wiki/Cascading_Style_Sheets/`,
+                description: `Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.`
+            },
+            {
+                title: `Bootstrap`,
+                slug: `bootstrap`,
+                resourceURL: `https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)`,
+                description: `Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.`
             }],
         portfolioThumb: `/assets/img/portfolio/quiz-board.png`,
         liveLink: `http://localhost:4200/`,
