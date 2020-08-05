@@ -13,5 +13,10 @@ export interface Project {
     projectGallery: string;
     githubRepo: string;
     objective: string;
-    collaborators: string;
+    collaborators: {
+        fullName: string;
+        githubUsername: string;
+        githubProfile: string;
+        avatarURL: string;
+    }[];
 }
