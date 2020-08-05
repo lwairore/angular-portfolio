@@ -1,6 +1,11 @@
 export interface Project {
     heading: string;
-    tags: {title: string, slug: string}[];
+    tags: {
+        title: string,
+        slug: string,
+        resourceURL: string,
+        description: string
+    }[];
     slug: string;
     portfolioThumb: string;
     liveLink: string;
