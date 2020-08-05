@@ -7,11 +7,21 @@ const routes: Routes = [
   {
     path: '', component: HomepageComponent, children: [
       {
-        path: '',
-        component: PortfolioCardsComponent
-      }
+        path: ':frameworkSlug',
+        component: PortfolioCardsComponent,
+        pathMatch: 'full',
+        
+      },
     ]
   },
+  {
+    path: 'project',
+    loadChildren: () => import ('./project-detail/project-detail.module')
+        .then(m => m.ProjectDetailModule)
+  },
+  {
+    path: '**', redirectTo: '/all'
+  }
 ];
 
 @NgModule({
