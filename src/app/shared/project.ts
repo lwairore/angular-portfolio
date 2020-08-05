@@ -5,4 +5,5 @@ export interface Project {
     portfolioThumb: string;
     liveLink: string;
     createdAt: Date;
+    projectGallery: string;
 }
