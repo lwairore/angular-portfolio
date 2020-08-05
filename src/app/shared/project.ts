@@ -19,4 +19,5 @@ export interface Project {
         githubProfile: string;
         avatarURL: string;
     }[];
+    description: string;
 }
