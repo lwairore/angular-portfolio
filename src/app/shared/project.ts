@@ -20,4 +20,5 @@ export interface Project {
         avatarURL: string;
     }[];
     description: string;
+    userStories: string[];
 }
