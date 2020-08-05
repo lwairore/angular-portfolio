@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { CoreModule } from './core.module';
-import { Project } from './project';
+import { Project } from '../shared/project';
 import { BehaviorSubject } from 'rxjs';
 import { PROJECTS } from './mock-project';
 import { map } from 'rxjs/operators';

@@ -7,7 +7,7 @@ import { Router,
 import { Observable, of, EMPTY } from 'rxjs';
 import { mergeMap, take } from 'rxjs/operators';
 import { ProjectService } from '../core/project.service';
-import { Project } from '../core/project';
+import { Project } from '../shared/project';
 
 @Injectable({
   providedIn: 'root'
