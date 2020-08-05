@@ -13,7 +13,8 @@ export const PROJECTS: Project[] = [
         portfolioThumb: '/assets/img/portfolio/pitch.png',
         liveLink: `http://localhost:4200/`,
         createdAt: new Date(`Aug 28, 2020`),
-        projectGallery: `/assets/img/portfolio/single/slider/01.jpg`
+        projectGallery: `/assets/img/portfolio/single/slider/01.jpg`,
+        githubRepo: `https://github.com/{:owner}/{:repoName}`
     },
     {
         heading: `InstaClone`,
@@ -27,7 +28,8 @@ export const PROJECTS: Project[] = [
         portfolioThumb: `/assets/img/portfolio/instaclone.png`,
         liveLink: `http://localhost:4200/`,
         createdAt: new Date(`Aug 30, 2020`),
-        projectGallery: `/assets/img/portfolio/single/slider/02.jpg`
+        projectGallery: `/assets/img/portfolio/single/slider/02.jpg`,
+        githubRepo: `https://github.com/{:owner}/{:repoName}`
     },
     {
         heading: `News-Highlights`,
@@ -41,7 +43,8 @@ export const PROJECTS: Project[] = [
         portfolioThumb: `/assets/img/portfolio/news-highlights.png`,
         liveLink: `http://localhost:4200/`,
         createdAt: new Date(`Sept 3, 2020`),
-        projectGallery: `/assets/img/portfolio/single/slider/03.jpg`
+        projectGallery: `/assets/img/portfolio/single/slider/03.jpg`,
+        githubRepo: `https://github.com/{:owner}/{:repoName}`
     },
     {
         heading: `Pig-Dice`,
@@ -66,7 +69,8 @@ export const PROJECTS: Project[] = [
         portfolioThumb: `/assets/img/portfolio/pig-dice.png`,
         liveLink: `http://localhost:4200/`,
         createdAt: new Date(`Sept 6, 2020`),
-        projectGallery: `/assets/img/portfolio/single/slider/04.jpg`
+        projectGallery: `/assets/img/portfolio/single/slider/04.jpg`,
+        githubRepo: `https://github.com/{:owner}/{:repoName}`
     },
     {
         heading: `Quotes`,
@@ -80,7 +84,8 @@ export const PROJECTS: Project[] = [
         portfolioThumb: `/assets/img/portfolio/quotes.png`,
         liveLink: `http://localhost:4200/`,
         createdAt: new Date(`Sept 9, 2020`),
-        projectGallery: `/assets/img/portfolio/single/slider/05.jpg`
+        projectGallery: `/assets/img/portfolio/single/slider/05.jpg`,
+        githubRepo: `https://github.com/{:owner}/{:repoName}`
     },
     {
         heading: `Quiz-Board`,
@@ -101,6 +106,7 @@ export const PROJECTS: Project[] = [
         portfolioThumb: `/assets/img/portfolio/quiz-board.png`,
         liveLink: `http://localhost:4200/`,
         createdAt: new Date(`Sept 13, 2020`),
-        projectGallery: `/assets/img/portfolio/single/slider/01.jpg`
+        projectGallery: `/assets/img/portfolio/single/slider/01.jpg`,
+        githubRepo: `https://github.com/{:owner}/{:repoName}`
     }
 ]
