@@ -7,4 +7,5 @@ export interface Project {
     createdAt: Date;
     projectGallery: string;
     githubRepo: string;
+    objective: string;
 }
