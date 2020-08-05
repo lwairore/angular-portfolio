@@ -17,7 +17,7 @@ export const PROJECTS: Project[] = [
         createdAt: new Date(`Aug 28, 2020`),
         projectGallery: `/assets/img/portfolio/single/slider/01.jpg`,
         githubRepo: `https://github.com/{:owner}/{:repoName}`,
-        objective: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio eu feugiat pretium nibh ipsum. Dolor sit amet consectetur adipiscing. Vel fringilla est ullamcorper eget nulla facilisi. Orci phasellus egestas tellus rutrum tellus. Morbi non arcu risus quis varius. Vitae nunc sed velit dignissim. Fusce ut placerat orci nulla pellentesque. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in.`,
+        objective: `The purpose of this Independent Project is to demonstrate your level of understanding of the various concepts that you have covered in the content throughout the week. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio eu feugiat pretium nibh ipsum. Dolor sit amet consectetur adipiscing. Vel fringilla est ullamcorper eget nulla facilisi. Orci phasellus egestas tellus rutrum tellus. Morbi non arcu risus quis varius. Vitae nunc sed velit dignissim. Fusce ut placerat orci nulla pellentesque. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in.`,
         collaborators: [
             {
                 fullName: `Karangu Lucas Wairore`,
@@ -32,7 +32,13 @@ export const PROJECTS: Project[] = [
         
         Ac turpis egestas sed tempus urna et pharetra pharetra massa. Viverra nam libero justo laoreet sit. In hac habitasse platea dictumst quisque sagittis purus. Viverra orci sagittis eu volutpat odio. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Lacus luctus accumsan tortor posuere ac ut. 
         
-        Erat pellentesque adipiscing commodo elit. Mauris cursus mattis molestie a iaculis at erat. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Elit at imperdiet dui accumsan sit amet nulla facilisi. In pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Tempus iaculis urna id volutpat lacus laoreet non.`
+        Erat pellentesque adipiscing commodo elit. Mauris cursus mattis molestie a iaculis at erat. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Elit at imperdiet dui accumsan sit amet nulla facilisi. In pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Tempus iaculis urna id volutpat lacus laoreet non.`,
+        userStories: [
+            `Nulla pellentesque dignissim enim sit.`,
+            `Fringilla ut morbi tincidunt augue interdum velit euismod in.`,
+            `Tincidunt eget nullam non nisi est sit.`,
+            `Odio ut sem nulla pharetra diam. `
+        ]
     },
     {
         heading: `InstaClone`,
@@ -50,7 +56,7 @@ export const PROJECTS: Project[] = [
         createdAt: new Date(`Aug 30, 2020`),
         projectGallery: `/assets/img/portfolio/single/slider/02.jpg`,
         githubRepo: `https://github.com/{:owner}/{:repoName}`,
-        objective: `Lectus sit amet est placerat in. At quis risus sed vulputate odio ut enim blandit. Pulvinar pellentesque habitant morbi tristique senectus et. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Urna id volutpat lacus laoreet non curabitur gravida arcu. Quis enim lobortis scelerisque fermentum dui.`,
+        objective: `The purpose of this Independent Project is to demonstrate your level of understanding of the various concepts that you have covered in the content throughout the week. Lectus sit amet est placerat in. At quis risus sed vulputate odio ut enim blandit. Pulvinar pellentesque habitant morbi tristique senectus et. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Urna id volutpat lacus laoreet non curabitur gravida arcu. Quis enim lobortis scelerisque fermentum dui.`,
         collaborators: [
             {
                 fullName: `Karangu Lucas Wairore`,
@@ -63,7 +69,13 @@ export const PROJECTS: Project[] = [
 
         Id velit ut tortor pretium viverra suspendisse potenti nullam ac. Velit egestas dui id ornare arcu odio. Tristique senectus et netus et malesuada. A condimentum vitae sapien pellentesque habitant morbi. Lobortis feugiat vivamus at augue eget. 
         
-        Sit amet mattis vulputate enim nulla. Ut placerat orci nulla pellentesque dignissim enim sit amet. Gravida arcu ac tortor dignissim convallis aenean et tortor. Pulvinar sapien et ligula ullamcorper malesuada proin libero. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mi quis hendrerit dolor magna eget est. Feugiat sed lectus vestibulum mattis ullamcorper velit.`
+        Sit amet mattis vulputate enim nulla. Ut placerat orci nulla pellentesque dignissim enim sit amet. Gravida arcu ac tortor dignissim convallis aenean et tortor. Pulvinar sapien et ligula ullamcorper malesuada proin libero. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mi quis hendrerit dolor magna eget est. Feugiat sed lectus vestibulum mattis ullamcorper velit.`,
+        userStories: [
+            `Ullamcorper a lacus vestibulum sed arcu non odio.`,
+            `Diam sit amet nisl suscipit adipiscing bibendum.`,
+            `Varius duis at consectetur lorem donec massa sapien faucibus et.`,
+            `Fames ac turpis egestas integer eget. `
+        ]
     },
     {
         heading: `News-Highlights`,
@@ -81,7 +93,7 @@ export const PROJECTS: Project[] = [
         createdAt: new Date(`Sept 3, 2020`),
         projectGallery: `/assets/img/portfolio/single/slider/03.jpg`,
         githubRepo: `https://github.com/{:owner}/{:repoName}`,
-        objective: `Sed enim ut sem viverra. Nisi vitae suscipit tellus mauris. Scelerisque eleifend donec pretium vulputate. Massa id neque aliquam vestibulum morbi blandit cursus risus. Lorem ipsum dolor sit amet consectetur. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Commodo nulla facilisi nullam vehicula ipsum a. Venenatis cras sed felis eget velit aliquet sagittis. Tincidunt augue interdum velit euismod in pellentesque massa placerat. Quis vel eros donec ac odio tempor orci dapibus. Elementum tempus egestas sed sed risus. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Tincidunt id aliquet risus feugiat in ante. Euismod in pellentesque massa placerat duis ultricies. Purus in mollis nunc sed. Ultricies tristique nulla aliquet enim. Congue quisque egestas diam in.`,
+        objective: `The purpose of this Independent Project is to demonstrate your level of understanding of the various concepts that you have covered in the content throughout the week. Sed enim ut sem viverra. Nisi vitae suscipit tellus mauris. Scelerisque eleifend donec pretium vulputate. Massa id neque aliquam vestibulum morbi blandit cursus risus. Lorem ipsum dolor sit amet consectetur. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Commodo nulla facilisi nullam vehicula ipsum a. Venenatis cras sed felis eget velit aliquet sagittis. Tincidunt augue interdum velit euismod in pellentesque massa placerat. Quis vel eros donec ac odio tempor orci dapibus. Elementum tempus egestas sed sed risus. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Tincidunt id aliquet risus feugiat in ante. Euismod in pellentesque massa placerat duis ultricies. Purus in mollis nunc sed. Ultricies tristique nulla aliquet enim. Congue quisque egestas diam in.`,
         collaborators: [
             {
                 fullName: `Karangu Lucas Wairore`,
@@ -94,7 +106,13 @@ export const PROJECTS: Project[] = [
 
         Lacinia quis vel eros donec ac odio. Sit amet tellus cras adipiscing enim eu turpis. Diam in arcu cursus euismod quis. Urna condimentum mattis pellentesque id nibh. Maecenas pharetra convallis posuere morbi leo. Facilisis leo vel fringilla est. Orci nulla pellentesque dignissim enim. Nulla facilisi cras fermentum odio eu. 
         
-        Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Senectus et netus et malesuada fames ac turpis. Ultrices neque ornare aenean euismod elementum nisi quis. Feugiat pretium nibh ipsum consequat nisl vel pretium. Nec ultrices dui sapien eget mi proin sed libero. Lacus sed viverra tellus in hac.`
+        Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Senectus et netus et malesuada fames ac turpis. Ultrices neque ornare aenean euismod elementum nisi quis. Feugiat pretium nibh ipsum consequat nisl vel pretium. Nec ultrices dui sapien eget mi proin sed libero. Lacus sed viverra tellus in hac.`,
+        userStories: [
+            `Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer.`,
+            `Pulvinar mattis nunc sed blandit libero volutpat sed.`,
+            `Sed augue lacus viverra vitae congue eu consequat ac.`,
+            `Felis bibendum ut tristique et egestas quis.`
+        ]
     },
     {
         heading: `Pig-Dice`,
@@ -129,7 +147,7 @@ export const PROJECTS: Project[] = [
         createdAt: new Date(`Sept 6, 2020`),
         projectGallery: `/assets/img/portfolio/single/slider/04.jpg`,
         githubRepo: `https://github.com/{:owner}/{:repoName}`,
-        objective: `Cras sed felis eget velit aliquet sagittis id consectetur purus. Orci eu lobortis elementum nibh tellus molestie nunc. Non quam lacus suspendisse faucibus interdum. Urna cursus eget nunc scelerisque. Tortor id aliquet lectus proin nibh nisl. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Quisque id diam vel quam elementum pulvinar etiam. Sed faucibus turpis in eu mi bibendum neque. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper. Risus nec feugiat in fermentum. Dis parturient montes nascetur ridiculus. Volutpat lacus laoreet non curabitur gravida arcu ac. Mattis aliquam faucibus purus in massa tempor nec feugiat. Ullamcorper dignissim cras tincidunt lobortis feugiat.`,
+        objective: `The purpose of this Independent Project is to demonstrate your level of understanding of the various concepts that you have covered in the content throughout the week. Cras sed felis eget velit aliquet sagittis id consectetur purus. Orci eu lobortis elementum nibh tellus molestie nunc. Non quam lacus suspendisse faucibus interdum. Urna cursus eget nunc scelerisque. Tortor id aliquet lectus proin nibh nisl. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Quisque id diam vel quam elementum pulvinar etiam. Sed faucibus turpis in eu mi bibendum neque. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper. Risus nec feugiat in fermentum. Dis parturient montes nascetur ridiculus. Volutpat lacus laoreet non curabitur gravida arcu ac. Mattis aliquam faucibus purus in massa tempor nec feugiat. Ullamcorper dignissim cras tincidunt lobortis feugiat.`,
         collaborators: [
             {
                 fullName: `Karangu Lucas Wairore`,
@@ -142,7 +160,13 @@ export const PROJECTS: Project[] = [
 
         Neque viverra justo nec ultrices dui sapien eget mi proin. Commodo elit at imperdiet dui accumsan sit. Egestas dui id ornare arcu odio ut sem. In pellentesque massa placerat duis ultricies lacus. Nunc eget lorem dolor sed viverra ipsum nunc aliquet. 
         
-        Vel facilisis volutpat est velit egestas. Pellentesque id nibh tortor id aliquet lectus proin. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Ultricies tristique nulla aliquet enim. Aliquam ultrices sagittis orci a scelerisque purus.`
+        Vel facilisis volutpat est velit egestas. Pellentesque id nibh tortor id aliquet lectus proin. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Ultricies tristique nulla aliquet enim. Aliquam ultrices sagittis orci a scelerisque purus.`,
+        userStories: [
+            `Aliquet lectus proin nibh nisl condimentum id.`,
+            `Id semper risus in hendrerit gravida.`,
+            `Adipiscing at in tellus integer feugiat scelerisque varius morbi enim.`,
+            `Ac placerat vestibulum lectus mauris ultrices eros in cursus.`
+        ]
     },
     {
         heading: `Quotes`,
@@ -160,7 +184,7 @@ export const PROJECTS: Project[] = [
         createdAt: new Date(`Sept 9, 2020`),
         projectGallery: `/assets/img/portfolio/single/slider/05.jpg`,
         githubRepo: `https://github.com/{:owner}/{:repoName}`,
-        objective: `Varius vel pharetra vel turpis nunc. Vitae turpis massa sed elementum tempus egestas. Mauris cursus mattis molestie a. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Enim sed faucibus turpis in eu. Mi bibendum neque egestas congue quisque egestas diam in. Sed euismod nisi porta lorem mollis aliquam ut. Nunc faucibus a pellentesque sit amet. Sit amet consectetur adipiscing elit ut aliquam purus. Risus in hendrerit gravida rutrum. Arcu non sodales neque sodales ut. Nibh venenatis cras sed felis eget velit. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus. Purus viverra accumsan in nisl nisi scelerisque eu.`,
+        objective: `The purpose of this Independent Project is to demonstrate your level of understanding of the various concepts that you have covered in the content throughout the week. Varius vel pharetra vel turpis nunc. Vitae turpis massa sed elementum tempus egestas. Mauris cursus mattis molestie a. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Enim sed faucibus turpis in eu. Mi bibendum neque egestas congue quisque egestas diam in. Sed euismod nisi porta lorem mollis aliquam ut. Nunc faucibus a pellentesque sit amet. Sit amet consectetur adipiscing elit ut aliquam purus. Risus in hendrerit gravida rutrum. Arcu non sodales neque sodales ut. Nibh venenatis cras sed felis eget velit. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus. Purus viverra accumsan in nisl nisi scelerisque eu.`,
         collaborators: [
             {
                 fullName: `Karangu Lucas Wairore`,
@@ -173,7 +197,13 @@ export const PROJECTS: Project[] = [
 
         Egestas integer eget aliquet nibh praesent tristique. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Senectus et netus et malesuada. Non odio euismod lacinia at quis risus sed vulputate. Ullamcorper velit sed ullamcorper morbi tincidunt ornare. In massa tempor nec feugiat nisl pretium fusce. 
         
-        Donec massa sapien faucibus et molestie ac feugiat sed. Eros in cursus turpis massa tincidunt dui ut ornare. A cras semper auctor neque vitae tempus quam. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Eros donec ac odio tempor orci.`
+        Donec massa sapien faucibus et molestie ac feugiat sed. Eros in cursus turpis massa tincidunt dui ut ornare. A cras semper auctor neque vitae tempus quam. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Eros donec ac odio tempor orci.`,
+        userStories: [
+            `Vitae aliquet nec ullamcorper sit amet risus nullam eget felis.`,
+            `Quam pellentesque nec nam aliquam sem et tortor.`,
+            `Laoreet id donec ultrices tincidunt arcu non sodales neque.`,
+            `At volutpat diam ut venenatis tellus in.`
+        ]
     },
     {
         heading: `Quiz-Board`,
@@ -208,7 +238,7 @@ export const PROJECTS: Project[] = [
         createdAt: new Date(`Sept 13, 2020`),
         projectGallery: `/assets/img/portfolio/single/slider/01.jpg`,
         githubRepo: `https://github.com/{:owner}/{:repoName}`,
-        objective: `Egestas dui id ornare arcu odio ut. Cursus metus aliquam eleifend mi. Eget gravida cum sociis natoque penatibus et. Nec ullamcorper sit amet risus nullam eget felis eget. Justo nec ultrices dui sapien eget mi. Ut pharetra sit amet aliquam id diam. Et malesuada fames ac turpis egestas integer. Neque convallis a cras semper auctor neque vitae tempus quam. Bibendum ut tristique et egestas quis. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae. Non arcu risus quis varius quam. Leo urna molestie at elementum eu. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Arcu bibendum at varius vel pharetra vel. Donec et odio pellentesque diam volutpat commodo sed. Id venenatis a condimentum vitae sapien pellentesque habitant. Varius morbi enim nunc faucibus a pellentesque sit amet. Mi sit amet mauris commodo quis imperdiet massa tincidunt.`,
+        objective: `The purpose of this Independent Project is to demonstrate your level of understanding of the various concepts that you have covered in the content throughout the week. Egestas dui id ornare arcu odio ut. Cursus metus aliquam eleifend mi. Eget gravida cum sociis natoque penatibus et. Nec ullamcorper sit amet risus nullam eget felis eget. Justo nec ultrices dui sapien eget mi. Ut pharetra sit amet aliquam id diam. Et malesuada fames ac turpis egestas integer. Neque convallis a cras semper auctor neque vitae tempus quam. Bibendum ut tristique et egestas quis. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae. Non arcu risus quis varius quam. Leo urna molestie at elementum eu. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Arcu bibendum at varius vel pharetra vel. Donec et odio pellentesque diam volutpat commodo sed. Id venenatis a condimentum vitae sapien pellentesque habitant. Varius morbi enim nunc faucibus a pellentesque sit amet. Mi sit amet mauris commodo quis imperdiet massa tincidunt.`,
         collaborators: [
             {
                 fullName: `Karangu Lucas Wairore`,
@@ -221,6 +251,12 @@ export const PROJECTS: Project[] = [
 
         Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Urna neque viverra justo nec ultrices. Ante metus dictum at tempor commodo. Vulputate enim nulla aliquet porttitor. 
         
-        Gravida neque convallis a cras semper auctor neque vitae. Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Pulvinar elementum integer enim neque volutpat ac tincidunt. Nisi vitae suscipit tellus mauris a. Velit aliquet sagittis id consectetur. Neque aliquam vestibulum morbi blandit cursus risus at. Ut tortor pretium viverra suspendisse potenti. Magna eget est lorem ipsum dolor. Proin sagittis nisl rhoncus mattis. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Et malesuada fames ac turpis egestas sed tempus.`
+        Gravida neque convallis a cras semper auctor neque vitae. Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Pulvinar elementum integer enim neque volutpat ac tincidunt. Nisi vitae suscipit tellus mauris a. Velit aliquet sagittis id consectetur. Neque aliquam vestibulum morbi blandit cursus risus at. Ut tortor pretium viverra suspendisse potenti. Magna eget est lorem ipsum dolor. Proin sagittis nisl rhoncus mattis. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Et malesuada fames ac turpis egestas sed tempus.`,
+        userStories: [
+            `Odio ut sem nulla pharetra diam sit amet.`,
+            `Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.`,
+            `Tincidunt vitae semper quis lectus.`,
+            `Cras sed felis eget velit aliquet sagittis id consectetur purus.`
+        ]
     }
 ]
