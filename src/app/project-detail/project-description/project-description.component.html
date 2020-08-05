@@ -1,1 +1,44 @@
-<p>project-description works!</p>
+<section class="py-5">
+    <div class="row pb-md-2">
+        <div class="col-md-5">
+            <h3 class="h5">Basic details</h3>
+            <ul class="list-unstyled font-size-md mb-4 pb-2">
+                <li class="mb-2">Name:<span class="font-weight-medium text-nav ml-2">{{projectDescription.name}}</span>
+                </li>
+                <li class="mb-2">Github:<span class="font-weight-medium text-nav ml-2">
+                        <a [href]="projectDescription?.githubRepo" target="_blank" rel="noopener noreferrer">
+                            {{projectDescription?.githubRepo | slice: 0:30}}...</a>
+                    </span></li>
+                <li>Live demo:<a class="nav-link-style ml-2" target="_blank"
+                        [href]="projectDescription?.liveLink">{{projectDescription?.liveLink | slice: 0:30}}...</a></li>
+            </ul>
+            <h3 class="h5">Objective</h3>
+            <p class="font-size-sm mb-4 pb-2">{{projectDescription?.objective}}</p>
+            <h3 class="h5">Tools &amp; Technologies</h3>
+            <p class="font-size-sm mb-4 pb-2">
+                <span *ngFor="let item of projectDescription?.tags; let l=last">
+                    <a [href]="item.resourceURL" target="_blank" [title]="item.description">{{item.title}}</a>
+                    <span *ngIf="!l">, </span></span></p>
+            <h3 class="h5">Collaborators</h3>
+            <a *ngFor="let collaborator of projectDescription?.collaborators" class="social-btn sb-outline mr-2 my-2"
+                [href]="collaborator.githubProfile" target="_blank" [title]="collaborator.fullName">
+                <img width="58" [src]="collaborator.avatarURL"
+                    [alt]="'Image of ' + collaborator.fullName + ' who is a collaborator.'">
+            </a>
+
+        </div>
+        <div class="col-md-7 pt-4 pt-md-0 mb-lg-4 pb-lg-2">
+            <h3 class="h5">Description</h3>
+            <p [style.white-space]="'pre-line'" class="font-size-sm">{{projectDescription?.description}}</p>
+            <h3 class="h5">User stories</h3>
+            <div [style.white-space]="'pre-line'" class="font-size-sm">
+                As a user of the application I should be able to:
+                <p></p>
+                <ul>
+                    <li *ngFor="let item of projectDescription?.userStories">{{item}}</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
