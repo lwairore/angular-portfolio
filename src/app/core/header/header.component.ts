@@ -22,6 +22,8 @@ export class HeaderComponent implements OnInit {
             this.showBackButton = true;
             this.viewportScroller.scrollToPosition([0, 0]);
             
+          } else {
+            this.showBackButton = false;
           }
           this.viewportScroller.setHistoryScrollRestoration("auto");
         })
