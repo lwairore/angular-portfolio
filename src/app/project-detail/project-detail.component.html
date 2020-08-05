@@ -8,5 +8,14 @@
     <!-- Project gallery (carousel)-->
     <lwkp-project-gallery [propertyGallery]="projectDetails?.projectGallery"></lwkp-project-gallery>
     <!-- Project description -->
-    <lwkp-project-description></lwkp-project-description>
+    <lwkp-project-description [projectDescription]="{
+        'name': projectDetails?.heading,
+        'githubRepo': projectDetails?.githubRepo,
+        'liveLink': projectDetails?.liveLink,
+        'objective': projectDetails?.objective,
+        'tags': projectDetails?.tags,
+        'collaborators': projectDetails?.collaborators,
+        'description': projectDetails?.description,
+        'userStories': projectDetails?.userStories
+    }"></lwkp-project-description>
 </div>
