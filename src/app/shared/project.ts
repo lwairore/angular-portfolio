@@ -4,4 +4,5 @@ export interface Project {
     slug: string;
     portfolioThumb: string;
     liveLink: string;
+    created_at: Date;
 }
