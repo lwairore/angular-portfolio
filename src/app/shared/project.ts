@@ -6,4 +6,5 @@ export interface Project {
     liveLink: string;
     createdAt: Date;
     projectGallery: string;
+    githubRepo: string;
 }
