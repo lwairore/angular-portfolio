@@ -1,4 +1,4 @@
-import { Project } from './project';
+import { Project } from '../shared/project';
 
 export const PROJECTS: Project[] = [
     {
