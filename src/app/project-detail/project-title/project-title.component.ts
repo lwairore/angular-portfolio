@@ -14,7 +14,8 @@ export class ProjectTitleComponent implements OnInit {
     {
       title: string,
       slug: string
-    }[]
+    }[],
+    liveLink: string
   };
 
   constructor() { }
