@@ -8,6 +8,9 @@ import { TransformNavbarDirective } from './transform-navbar.directive';
   declarations: [TransformNavbarDirective],
   imports: [
     CommonModule
+  ],
+  exports: [
+    TransformNavbarDirective,
   ]
 })
 export class SharedModule { }
