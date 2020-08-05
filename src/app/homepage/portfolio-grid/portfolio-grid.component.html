@@ -1,1 +1,14 @@
-<p>portfolio-grid works!</p>
+<!-- Portfolio grid-->
+<section class="container overflow-hidden py-5 py-md-6 py-lg-7">
+    <div class="cs-masonry-filterable pt-3 pt-md-0">
+        <ul class="cs-masonry-filters nav nav-tabs justify-content-center pb-4">
+            <li class="nav-item"><a class="nav-link" routerLinkActive="active" routerLink="/all"  data-group="all">All</a></li>
+            <li class="nav-item"><a class="nav-link" routerLinkActive="active" routerLink="/angular" data-group="Angular">Angular</a></li>
+            <li class="nav-item"><a class="nav-link" routerLinkActive="active" routerLink="/django" data-group="django">Django</a></li>
+            <li class="nav-item"><a class="nav-link" routerLinkActive="active" routerLink="/flask" data-group="flask">Flask</a></li>
+        </ul>
+        <router-outlet></router-outlet>
+    </div>
+    <div class="text-center py-3 pb-md-0"><a class="btn btn-primary" href="#"><i class="fe-refresh-ccw mr-2"></i>Load
+            More</a></div>
+</section>
