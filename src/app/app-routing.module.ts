@@ -13,14 +13,14 @@ const routes: Routes = [
         path: ':frameworkSlug',
         component: PortfolioCardsComponent,
         pathMatch: 'full'
-        
+
       },
     ]
   },
   {
     path: 'project',
-    loadChildren: () => import ('./project-detail/project-detail.module')
-        .then(m => m.ProjectDetailModule)
+    loadChildren: () => import('./project-detail/project-detail.module')
+      .then(m => m.ProjectDetailModule)
   },
   {
     path: '**', redirectTo: '/all'
@@ -28,7 +28,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {enableTracing: true, scrollPositionRestoration: "enabled"})],
+  imports: [RouterModule.forRoot(routes, {
+    scrollPositionRestoration: "enabled"
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
