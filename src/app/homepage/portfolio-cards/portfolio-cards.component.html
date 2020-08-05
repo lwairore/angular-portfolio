@@ -5,7 +5,9 @@
                 [alt]="'Portfolio thumb for  ' + project.heading" />
             <div class="card-body text-center">
                 <h3 class="h5 nav-heading mb-2">{{project.heading}}</h3>
-                <p class="font-size-sm text-muted mb-2">UI / UX Design, Web Development</p>
+                <p class="font-size-sm text-muted mb-2">
+                    <span *ngFor="let item of project.tags; let l=last"> {{item.title}}<span *ngIf="!l">, </span></span>
+                </p>
             </div>
         </a></div>
 
