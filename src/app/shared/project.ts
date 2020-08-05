@@ -3,4 +3,5 @@ export interface Project {
     tags: {title: string, slug: string}[];
     slug: string;
     portfolioThumb: string;
+    liveLink: string;
 }
