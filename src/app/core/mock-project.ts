@@ -10,7 +10,8 @@ export const PROJECTS: Project[] = [
                 slug: `flask`
             }
         ],
-        portfolioThumb: '/assets/img/portfolio/pitch.png'
+        portfolioThumb: '/assets/img/portfolio/pitch.png',
+        liveLink: `http://localhost:4200/`
     },
     {
         heading: `InstaClone`,
@@ -21,7 +22,8 @@ export const PROJECTS: Project[] = [
                 slug: `django`
             }
         ],
-        portfolioThumb: `/assets/img/portfolio/instaclone.png`
+        portfolioThumb: `/assets/img/portfolio/instaclone.png`,
+        liveLink: `http://localhost:4200/`
     },
     {
         heading: `News-Highlights`,
@@ -32,7 +34,8 @@ export const PROJECTS: Project[] = [
                 slug: `flask`
             }
         ],
-        portfolioThumb: `/assets/img/portfolio/news-highlights.png`
+        portfolioThumb: `/assets/img/portfolio/news-highlights.png`,
+        liveLink: `http://localhost:4200/`
     },
     {
         heading: `Pig-Dice`,
@@ -54,7 +57,8 @@ export const PROJECTS: Project[] = [
                 title: `Bootstrap`,
                 slug: `bootstrap`
             }],
-        portfolioThumb: `/assets/img/portfolio/pig-dice.png`
+        portfolioThumb: `/assets/img/portfolio/pig-dice.png`,
+        liveLink: `http://localhost:4200/`
     },
     {
         heading: `Quotes`,
@@ -65,7 +69,8 @@ export const PROJECTS: Project[] = [
                 slug: `angular`
             }
         ],
-        portfolioThumb: `/assets/img/portfolio/quotes.png`
+        portfolioThumb: `/assets/img/portfolio/quotes.png`,
+        liveLink: `http://localhost:4200/`
     },
     {
         heading: `Quiz-Board`,
@@ -83,6 +88,7 @@ export const PROJECTS: Project[] = [
                 title: `CSS`,
                 slug: `css`
             }],
-        portfolioThumb: `/assets/img/portfolio/quiz-board.png`
+        portfolioThumb: `/assets/img/portfolio/quiz-board.png`,
+        liveLink: `http://localhost:4200/`
     }
 ]
