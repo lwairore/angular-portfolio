@@ -1,5 +1,6 @@
 export interface Project {
     heading: string;
-    tags: string[];
+    tags: {title: string, slug: string}[];
     slug: string;
+    portfolioThumb: string;
 }
