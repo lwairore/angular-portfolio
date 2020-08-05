@@ -24,4 +24,10 @@ export class ProjectService {
       map(projects => projects.find(project => project.slug === projectSlug))
     );
   }
+
+  getSpecificProjectsForAFramework(frameworkSlug: string){
+    return this.getAllProjects().pipe(
+      map(projects => projects.filter(project => project.tags.every(tag => tag.slug === frameworkSlug)))
+    );
+  }
 }
