@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TransformNavbarDirective } from './transform-navbar.directive';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [TransformNavbarDirective],
   imports: [
     CommonModule
   ]
