@@ -25,7 +25,14 @@ export const PROJECTS: Project[] = [
                 githubUsername: `lwairore`,
                 avatarURL: `/assets/img/me.png`
             }
-        ]
+        ],
+        description: `Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Nunc scelerisque viverra mauris in aliquam. Magna eget est lorem ipsum dolor. 
+
+        Bibendum enim facilisis gravida neque convallis a cras semper auctor. Nulla porttitor massa id neque aliquam. Erat velit scelerisque in dictum non consectetur a erat. Etiam tempor orci eu lobortis elementum nibh tellus molestie. 
+        
+        Ac turpis egestas sed tempus urna et pharetra pharetra massa. Viverra nam libero justo laoreet sit. In hac habitasse platea dictumst quisque sagittis purus. Viverra orci sagittis eu volutpat odio. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Lacus luctus accumsan tortor posuere ac ut. 
+        
+        Erat pellentesque adipiscing commodo elit. Mauris cursus mattis molestie a iaculis at erat. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Elit at imperdiet dui accumsan sit amet nulla facilisi. In pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Tempus iaculis urna id volutpat lacus laoreet non.`
     },
     {
         heading: `InstaClone`,
@@ -51,7 +58,12 @@ export const PROJECTS: Project[] = [
                 githubUsername: `lwairore`,
                 avatarURL: `/assets/img/me.png`
             }
-        ]
+        ],
+        description: `Dignissim suspendisse in est ante in nibh. Fames ac turpis egestas sed tempus urna et pharetra pharetra. Aliquam ultrices sagittis orci a scelerisque purus semper eget. 
+
+        Id velit ut tortor pretium viverra suspendisse potenti nullam ac. Velit egestas dui id ornare arcu odio. Tristique senectus et netus et malesuada. A condimentum vitae sapien pellentesque habitant morbi. Lobortis feugiat vivamus at augue eget. 
+        
+        Sit amet mattis vulputate enim nulla. Ut placerat orci nulla pellentesque dignissim enim sit amet. Gravida arcu ac tortor dignissim convallis aenean et tortor. Pulvinar sapien et ligula ullamcorper malesuada proin libero. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mi quis hendrerit dolor magna eget est. Feugiat sed lectus vestibulum mattis ullamcorper velit.`
     },
     {
         heading: `News-Highlights`,
@@ -77,7 +89,12 @@ export const PROJECTS: Project[] = [
                 githubUsername: `lwairore`,
                 avatarURL: `/assets/img/me.png`
             }
-        ]
+        ],
+        description: `Lacus vestibulum sed arcu non odio euismod. Massa eget egestas purus viverra. Semper feugiat nibh sed pulvinar proin gravida hendrerit. Ut lectus arcu bibendum at. Venenatis cras sed felis eget velit aliquet sagittis id consectetur. 
+
+        Lacinia quis vel eros donec ac odio. Sit amet tellus cras adipiscing enim eu turpis. Diam in arcu cursus euismod quis. Urna condimentum mattis pellentesque id nibh. Maecenas pharetra convallis posuere morbi leo. Facilisis leo vel fringilla est. Orci nulla pellentesque dignissim enim. Nulla facilisi cras fermentum odio eu. 
+        
+        Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Senectus et netus et malesuada fames ac turpis. Ultrices neque ornare aenean euismod elementum nisi quis. Feugiat pretium nibh ipsum consequat nisl vel pretium. Nec ultrices dui sapien eget mi proin sed libero. Lacus sed viverra tellus in hac.`
     },
     {
         heading: `Pig-Dice`,
@@ -120,7 +137,12 @@ export const PROJECTS: Project[] = [
                 githubUsername: `lwairore`,
                 avatarURL: `/assets/img/me.png`
             }
-        ]
+        ],
+        description: `Sed risus ultricies tristique nulla. Maecenas accumsan lacus vel facilisis volutpat est velit. Faucibus purus in massa tempor nec feugiat. 
+
+        Neque viverra justo nec ultrices dui sapien eget mi proin. Commodo elit at imperdiet dui accumsan sit. Egestas dui id ornare arcu odio ut sem. In pellentesque massa placerat duis ultricies lacus. Nunc eget lorem dolor sed viverra ipsum nunc aliquet. 
+        
+        Vel facilisis volutpat est velit egestas. Pellentesque id nibh tortor id aliquet lectus proin. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Ultricies tristique nulla aliquet enim. Aliquam ultrices sagittis orci a scelerisque purus.`
     },
     {
         heading: `Quotes`,
@@ -146,7 +168,12 @@ export const PROJECTS: Project[] = [
                 githubUsername: `lwairore`,
                 avatarURL: `/assets/img/me.png`
             }
-        ]
+        ],
+        description: `Et molestie ac feugiat sed lectus vestibulum mattis. Rhoncus dolor purus non enim praesent elementum facilisis. Ornare suspendisse sed nisi lacus sed viverra tellus in. 
+
+        Egestas integer eget aliquet nibh praesent tristique. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Senectus et netus et malesuada. Non odio euismod lacinia at quis risus sed vulputate. Ullamcorper velit sed ullamcorper morbi tincidunt ornare. In massa tempor nec feugiat nisl pretium fusce. 
+        
+        Donec massa sapien faucibus et molestie ac feugiat sed. Eros in cursus turpis massa tincidunt dui ut ornare. A cras semper auctor neque vitae tempus quam. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Eros donec ac odio tempor orci.`
     },
     {
         heading: `Quiz-Board`,
@@ -189,6 +216,11 @@ export const PROJECTS: Project[] = [
                 githubUsername: `lwairore`,
                 avatarURL: `/assets/img/me.png`
             }
-        ]
+        ],
+        description: `Eget magna fermentum iaculis eu non diam. Aenean et tortor at risus viverra adipiscing at in. Nulla posuere sollicitudin aliquam ultrices. Urna cursus eget nunc scelerisque viverra mauris. 
+
+        Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Urna neque viverra justo nec ultrices. Ante metus dictum at tempor commodo. Vulputate enim nulla aliquet porttitor. 
+        
+        Gravida neque convallis a cras semper auctor neque vitae. Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Pulvinar elementum integer enim neque volutpat ac tincidunt. Nisi vitae suscipit tellus mauris a. Velit aliquet sagittis id consectetur. Neque aliquam vestibulum morbi blandit cursus risus at. Ut tortor pretium viverra suspendisse potenti. Magna eget est lorem ipsum dolor. Proin sagittis nisl rhoncus mattis. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Et malesuada fames ac turpis egestas sed tempus.`
     }
 ]
