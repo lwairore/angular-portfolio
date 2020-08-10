@@ -16,7 +16,7 @@ export const PROJECTS: Project[] = [
         liveLink: `https://giko.herokuapp.com/`,
         createdAt: new Date(`May 17, 2019`),
         projectGallery: `/assets/img/portfolio/single/slider/03.jpg`,
-        githubRepo: `httprojectDescription?.objectiveps://github.com/lwairore/flask-news-highlight`,
+        githubRepo: `https://github.com/lwairore/flask-news-highlight`,
         objective: `<ol>
         <li>Project should contain two models, one for the news source and one for the news article.</li>
         <li>Project must use views and routes.</li>
@@ -33,16 +33,12 @@ export const PROJECTS: Project[] = [
                 avatarURL: `/assets/img/me.png`
             }
         ],
-        description: `Lacus vestibulum sed arcu non odio euismod. Massa eget egestas purus viverra. Semper feugiat nibh sed pulvinar proin gravida hendrerit. Ut lectus arcu bibendum at. Venenatis cras sed felis eget velit aliquet sagittis id consectetur. 
-
-        Lacinia quis vel eros donec ac odio. Sit amet tellus cras adipiscing enim eu turpis. Diam in arcu cursus euismod quis. Urna condimentum mattis pellentesque id nibh. Maecenas pharetra convallis posuere morbi leo. Facilisis leo vel fringilla est. Orci nulla pellentesque dignissim enim. Nulla facilisi cras fermentum odio eu. 
-        
-        Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Senectus et netus et malesuada fames ac turpis. Ultrices neque ornare aenean euismod elementum nisi quis. Feugiat pretium nibh ipsum consequat nisl vel pretium. Nec ultrices dui sapien eget mi proin sed libero. Lacus sed viverra tellus in hac.`,
+        description: `In context, your parents are busy workers and they get home really late. They always miss the news and they are very frustrated since they can't keep up with current affairs. You are a developer and will use your skills and prowess to remedy this problem. You will hence create an application that will help them list and preview news articles from various sources.`,
         userStories: [
-            `Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer.`,
-            `Pulvinar mattis nunc sed blandit libero volutpat sed.`,
-            `Sed augue lacus viverra vitae congue eu consequat ac.`,
-            `Felis bibendum ut tristique et egestas quis.`
+            `As a user, I would like to see various news sources on the homepage of the application.`,
+            `As a user, I would also want to select a news source and see all news articles from the selected news source in the application.`,
+            `As a user, I would want to see the image, description and the time a news article was created.`,
+            `As a user, I would want to click on an article and read the full article on the source website.`
         ]
     },
     {
