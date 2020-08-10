@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { ProjectService } from '../../core/project.service';
 import { Project } from 'src/app/shared/project';
+import { flatMap } from 'rxjs/operators';
 
 @Component({
   selector: 'lwkp-portfolio-cards',
@@ -13,8 +14,8 @@ import { Project } from 'src/app/shared/project';
 export class PortfolioCardsComponent implements OnInit, OnDestroy {
   routeSubscription: Subscription;
   projectServiceSubscription: Subscription;
-  projects: Project[];
-  frameworkSlug: string;
+  projects: any;
+  toolSlug: string;
 
   constructor(
     private route: ActivatedRoute,
@@ -22,32 +23,17 @@ export class PortfolioCardsComponent implements OnInit, OnDestroy {
     private projectService: ProjectService) { }
 
   ngOnInit(): void {
-    this.routeSubscription = this.route.params.subscribe((params) => {
-      this.frameworkSlug = params['frameworkSlug']
-      this.projectServiceSubscription = this.projectService.getSpecificProjectsForAFramework(this.frameworkSlug).subscribe(
-        (projects: Project[]) => {
-          this.projects = projects;
-        }
-      )
-      if (this.projects.length < 1){
-        if (this.frameworkSlug === '/' || this.frameworkSlug === 'all' || this.frameworkSlug === undefined){
-          this.projectServiceSubscription = this.projectService.getAllProjects().subscribe(
-            (projects: Project[]) => {
-              this.projects = projects;
-            }
-          )
-        }
-  
-        else {
-          this.router.navigateByUrl(`/all`);
-        }
-      }
-    }, (err) => console.log(err))
+   this.routeSubscription = this.route.params.pipe(
+      flatMap((res1) =>
+       this.projectService.getSpecificProjectsForATool(res1['toolSlug']))
+    ).subscribe((projects) => {
+      this.projects = projects;
+    });
   }
 
   ngOnDestroy(): void {
     this.routeSubscription.unsubscribe();
-    this.projectServiceSubscription.unsubscribe();
+    // this.projectServiceSubscription.unsubscribe();
   }
 
 }
