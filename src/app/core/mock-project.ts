@@ -14,9 +14,9 @@ export const PROJECTS: Project[] = [
         ],
         portfolioThumb: `/assets/img/portfolio/news-highlights.png`,
         liveLink: `https://giko.herokuapp.com/`,
-        createdAt: new Date(`Sept 3, 2020`),
+        createdAt: new Date(`May 17, 2019`),
         projectGallery: `/assets/img/portfolio/single/slider/03.jpg`,
-        githubRepo: `https://github.com/lwairore/flask-news-highlight`,
+        githubRepo: `httprojectDescription?.objectiveps://github.com/lwairore/flask-news-highlight`,
         objective: `<ol>
         <li>Project should contain two models, one for the news source and one for the news article.</li>
         <li>Project must use views and routes.</li>
