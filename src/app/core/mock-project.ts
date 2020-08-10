@@ -2,84 +2,8 @@ import { Project } from '../shared/project';
 
 export const PROJECTS: Project[] = [
     {
-        heading: `Pitch`,
-        slug: `pitch`,
-        tags: [
-            {
-                title: `Flask`,
-                slug: `flask`,
-                resourceURL: `https://en.wikipedia.org/wiki/Flask_(web_framework)`,
-                description: `Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.`
-            }
-        ],
-        portfolioThumb: '/assets/img/portfolio/pitch.png',
-        liveLink: `http://localhost:4200/`,
-        createdAt: new Date(`Aug 28, 2020`),
-        projectGallery: `/assets/img/portfolio/single/slider/01.jpg`,
-        githubRepo: `https://github.com/{:owner}/{:repoName}`,
-        objective: `The purpose of this Independent Project is to demonstrate your level of understanding of the various concepts that you have covered in the content throughout the week. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio eu feugiat pretium nibh ipsum. Dolor sit amet consectetur adipiscing. Vel fringilla est ullamcorper eget nulla facilisi. Orci phasellus egestas tellus rutrum tellus. Morbi non arcu risus quis varius. Vitae nunc sed velit dignissim. Fusce ut placerat orci nulla pellentesque. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in.`,
-        collaborators: [
-            {
-                fullName: `Karangu Lucas Wairore`,
-                githubProfile: `https://github.com/lwairore`,
-                githubUsername: `lwairore`,
-                avatarURL: `/assets/img/me.png`
-            }
-        ],
-        description: `Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Nunc scelerisque viverra mauris in aliquam. Magna eget est lorem ipsum dolor. 
-
-        Bibendum enim facilisis gravida neque convallis a cras semper auctor. Nulla porttitor massa id neque aliquam. Erat velit scelerisque in dictum non consectetur a erat. Etiam tempor orci eu lobortis elementum nibh tellus molestie. 
-        
-        Ac turpis egestas sed tempus urna et pharetra pharetra massa. Viverra nam libero justo laoreet sit. In hac habitasse platea dictumst quisque sagittis purus. Viverra orci sagittis eu volutpat odio. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Lacus luctus accumsan tortor posuere ac ut. 
-        
-        Erat pellentesque adipiscing commodo elit. Mauris cursus mattis molestie a iaculis at erat. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Elit at imperdiet dui accumsan sit amet nulla facilisi. In pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Tempus iaculis urna id volutpat lacus laoreet non.`,
-        userStories: [
-            `Nulla pellentesque dignissim enim sit.`,
-            `Fringilla ut morbi tincidunt augue interdum velit euismod in.`,
-            `Tincidunt eget nullam non nisi est sit.`,
-            `Odio ut sem nulla pharetra diam. `
-        ]
-    },
-    {
-        heading: `InstaClone`,
-        slug: `instaclone`,
-        tags: [
-            {
-                title: `Django`,
-                slug: `django`,
-                resourceURL: `https://www.djangoproject.com/`,
-                description: `Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.`
-            }
-        ],
-        portfolioThumb: `/assets/img/portfolio/instaclone.png`,
-        liveLink: `http://localhost:4200/`,
-        createdAt: new Date(`Aug 30, 2020`),
-        projectGallery: `/assets/img/portfolio/single/slider/02.jpg`,
-        githubRepo: `https://github.com/{:owner}/{:repoName}`,
-        objective: `The purpose of this Independent Project is to demonstrate your level of understanding of the various concepts that you have covered in the content throughout the week. Lectus sit amet est placerat in. At quis risus sed vulputate odio ut enim blandit. Pulvinar pellentesque habitant morbi tristique senectus et. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Urna id volutpat lacus laoreet non curabitur gravida arcu. Quis enim lobortis scelerisque fermentum dui.`,
-        collaborators: [
-            {
-                fullName: `Karangu Lucas Wairore`,
-                githubProfile: `https://github.com/lwairore`,
-                githubUsername: `lwairore`,
-                avatarURL: `/assets/img/me.png`
-            }
-        ],
-        description: `Dignissim suspendisse in est ante in nibh. Fames ac turpis egestas sed tempus urna et pharetra pharetra. Aliquam ultrices sagittis orci a scelerisque purus semper eget. 
-
-        Id velit ut tortor pretium viverra suspendisse potenti nullam ac. Velit egestas dui id ornare arcu odio. Tristique senectus et netus et malesuada. A condimentum vitae sapien pellentesque habitant morbi. Lobortis feugiat vivamus at augue eget. 
-        
-        Sit amet mattis vulputate enim nulla. Ut placerat orci nulla pellentesque dignissim enim sit amet. Gravida arcu ac tortor dignissim convallis aenean et tortor. Pulvinar sapien et ligula ullamcorper malesuada proin libero. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mi quis hendrerit dolor magna eget est. Feugiat sed lectus vestibulum mattis ullamcorper velit.`,
-        userStories: [
-            `Ullamcorper a lacus vestibulum sed arcu non odio.`,
-            `Diam sit amet nisl suscipit adipiscing bibendum.`,
-            `Varius duis at consectetur lorem donec massa sapien faucibus et.`,
-            `Fames ac turpis egestas integer eget. `
-        ]
-    },
-    {
-        heading: `News-Highlights`,
-        slug: `news-highlights`,
+        heading: `Flask News Highlights`,
+        slug: `flask-news-highlights`,
         tags: [
             {
                 title: `Flask`,
@@ -89,11 +13,18 @@ export const PROJECTS: Project[] = [
             }
         ],
         portfolioThumb: `/assets/img/portfolio/news-highlights.png`,
-        liveLink: `http://localhost:4200/`,
+        liveLink: `https://giko.herokuapp.com/`,
         createdAt: new Date(`Sept 3, 2020`),
         projectGallery: `/assets/img/portfolio/single/slider/03.jpg`,
-        githubRepo: `https://github.com/{:owner}/{:repoName}`,
-        objective: `The purpose of this Independent Project is to demonstrate your level of understanding of the various concepts that you have covered in the content throughout the week. Sed enim ut sem viverra. Nisi vitae suscipit tellus mauris. Scelerisque eleifend donec pretium vulputate. Massa id neque aliquam vestibulum morbi blandit cursus risus. Lorem ipsum dolor sit amet consectetur. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Commodo nulla facilisi nullam vehicula ipsum a. Venenatis cras sed felis eget velit aliquet sagittis. Tincidunt augue interdum velit euismod in pellentesque massa placerat. Quis vel eros donec ac odio tempor orci dapibus. Elementum tempus egestas sed sed risus. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Tincidunt id aliquet risus feugiat in ante. Euismod in pellentesque massa placerat duis ultricies. Purus in mollis nunc sed. Ultricies tristique nulla aliquet enim. Congue quisque egestas diam in.`,
+        githubRepo: `https://github.com/lwairore/flask-news-highlight`,
+        objective: `<ol>
+        <li>Project should contain two models, one for the news source and one for the news article.</li>
+        <li>Project must use views and routes.</li>
+        <li>Project should consume the News API.</li>
+        <li>Project must contain request(s) to the News API.</li>
+        <li>Project should follow the proper folder structure.</li>
+        <li>Application should be deployed to Heroku.</li>
+        </ol>`,
         collaborators: [
             {
                 fullName: `Karangu Lucas Wairore`,
