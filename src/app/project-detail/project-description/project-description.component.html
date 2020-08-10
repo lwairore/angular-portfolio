@@ -12,8 +12,8 @@
                 <li>Live demo:<a class="nav-link-style ml-2" target="_blank"
                         [href]="projectDescription?.liveLink">{{projectDescription?.liveLink | slice: 0:30}}...</a></li>
             </ul>
-            <h3 class="h5">Objective</h3>
-            <p class="font-size-sm mb-4 pb-2">{{projectDescription?.objective}}</p>
+            <h3 class="h5">Objectives</h3>
+            <div class="font-size-sm mb-4 pb-2" [innerHTML]="projectDescription?.objective"></div>
             <h3 class="h5">Tools & Technologies</h3>
             <p class="font-size-sm mb-4 pb-2">
                 <span *ngFor="let item of projectDescription?.tags; let l=last">
