@@ -4,6 +4,7 @@ import { Project } from '../shared/project';
 import { BehaviorSubject } from 'rxjs';
 import { PROJECTS } from './mock-project';
 import { map } from 'rxjs/operators';
+import { TOOLS } from './mock-tools';
 
 @Injectable({
   providedIn: CoreModule
@@ -25,9 +26,22 @@ export class ProjectService {
     );
   }
 
-  getSpecificProjectsForAFramework(frameworkSlug: string){
-    return this.getAllProjects().pipe(
-      map(projects => projects.filter(project => project.tags.every(tag => tag.slug === frameworkSlug)))
-    );
+  getSpecificProjectsForATool(toolSlug: string){
+    // console.log('Tool slug', toolSlug);
+    let toolSlugExists: boolean = this.validToolSlug(toolSlug);
+    if (toolSlugExists){
+      // console.log('Django been processed')
+      return this.getAllProjects().pipe(
+        map(projects => projects.filter(project => project.tags.some((tag => tag.slug === toolSlug))))
+      );
+    }
+    return this.getAllProjects();
+    
+  }
+
+  validToolSlug(toolSlug: string): boolean {
+    let tool = TOOLS.find(tool => tool.slug === toolSlug);
+    if (tool) return true;
+    return false;
   }
 }
