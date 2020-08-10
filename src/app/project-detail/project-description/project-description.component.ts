@@ -10,6 +10,7 @@ export class ProjectDescriptionComponent implements OnInit {
   @Input() projectDescription: {
     name: string;
     githubRepo: string;
+    dockerhubRepo?: string;
     liveLink: string;
     objective: string;
     tags: {
