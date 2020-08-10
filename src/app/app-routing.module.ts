@@ -10,7 +10,7 @@ const routes: Routes = [
         path: '', redirectTo: '/all', pathMatch: 'full'
       },
       {
-        path: ':frameworkSlug',
+        path: ':toolSlug',
         component: PortfolioCardsComponent,
         pathMatch: 'full'
 
@@ -28,7 +28,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
