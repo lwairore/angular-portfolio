@@ -6,7 +6,7 @@
                                     }"></lwkp-project-title>
 <div class="container">
     <!-- Project gallery (carousel)-->
-    <lwkp-project-gallery [propertyGallery]="projectDetails?.projectGallery"></lwkp-project-gallery>
+    <lwkp-project-gallery *ngIf="projectDetails?.projectGallery" [propertyGallery]="projectDetails?.projectGallery"></lwkp-project-gallery>
     <!-- Project description -->
     <lwkp-project-description [projectDescription]="{
         'name': projectDetails?.heading,
