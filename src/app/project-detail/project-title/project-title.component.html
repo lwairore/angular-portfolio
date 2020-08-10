@@ -2,7 +2,7 @@
     <h1 class="h2 pt-4 pt-md-5 mt-2">{{projectDetails?.heading}}</h1>
     <div class="d-sm-flex alitgn-itams-center pt-3 font-size-sm">
         <div class="d-flex align-items-center mb-3">
-            <div class="text-nowrap text-muted mr-3">
+            <div *ngIf="projectDetails?.liveLink" class="text-nowrap text-muted mr-3">
                 <i class="fe-link mr-1"></i><span>
                     <a [href]="projectDetails?.liveLink" target="_blank" rel="noopener noreferrer">View</a>
                 </span>
