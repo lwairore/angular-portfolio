@@ -9,7 +9,11 @@
                         <a [href]="projectDescription?.githubRepo" target="_blank" rel="noopener noreferrer">
                             {{projectDescription?.githubRepo | slice: 0:30}}...</a>
                     </span></li>
-                <li>Live demo:<a class="nav-link-style ml-2" target="_blank"
+                <li *ngIf="projectDescription?.dockerhubRepo" class="mb-2">DockerHub:<span class="font-weight-medium text-nav ml-2">
+                    <a [href]="projectDescription?.dockerhubRepo" target="_blank" rel="noopener noreferrer">
+                        {{projectDescription?.dockerhubRepo | slice: 0:30}}...</a>
+                </span></li>
+                <li *ngIf="projectDescription?.liveLink">Live demo:<a class="nav-link-style ml-2" target="_blank"
                         [href]="projectDescription?.liveLink">{{projectDescription?.liveLink | slice: 0:30}}...</a></li>
             </ul>
             <h3 class="h5">Objectives</h3>
