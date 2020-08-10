@@ -1,7 +1,7 @@
 <div class="cs-masonry-grid" data-columns="3">
     <div *ngFor="let project of projects" class="cs-grid-item">
         <a class="card card-hover border-0 box-shadow"
-            [routerLink]="['/project', project.slug]"><img class="card-img-top" [src]="project.portfolioThumb"
+            [routerLink]="['/project', project.slug]"><img *ngIf="project.portfolioThumb" class="card-img-top" [src]="project.portfolioThumb"
                 [alt]="'Portfolio thumb for  ' + project.heading" />
             <div class="card-body text-center">
                 <h3 class="h5 nav-heading mb-2">{{project.heading}}</h3>
