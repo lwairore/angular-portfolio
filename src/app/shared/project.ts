@@ -12,6 +12,7 @@ export interface Project {
     createdAt: Date;
     projectGallery: string;
     githubRepo: string;
+    dockerhubRepo?: string;
     objective: string;
     collaborators: {
         fullName: string;
