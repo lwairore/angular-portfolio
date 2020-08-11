@@ -14,10 +14,10 @@ export class ProjectDescriptionComponent implements OnInit {
     liveLink: string;
     objective: string;
     tags: {
-      title: string,
-      slug: string,
-      resourceURL: string,
-      description: string
+      title: string;
+      slug: string;
+      resourceURL: string;
+      description: string;
     };
     collaborators: {
       fullName: string;
@@ -26,7 +26,7 @@ export class ProjectDescriptionComponent implements OnInit {
       avatarURL: string;
     };
     description: string;
-    userStories: string[];
+    userStories?: string[];
   }
 
   constructor() { }
