@@ -1,10 +1,10 @@
 <header lwkpTransformNavbar data-scroll-header>
     <div class="container px-0 px-xl-3">
-        <button [hidden]="!showBackButton" class="navbar-toggler ml-n2 mr-2" (click)="goBack();" type="button">
+        <div [hidden]="!showBackButton" class="ml-n2 mr-2" (click)="goBack();" [style.cursor]="'pointer'">
             <div class="text-nowrap text-muted mr-3">
                 <i class="fe-arrow-left mr-1"></i><span>Back</span>
             </div>
-        </button>
+        </div>
         <a class="navbar-brand order-lg-1 mx-auto ml-lg-0 pr-lg-2 mr-lg-4" href="/all"><img
                 class="navbar-floating-logo d-none d-lg-block" width="58" src="/assets/img/me.png" alt="Around" /><img
                 class="navbar-stuck-logo" width="58" src="/assets/img/me.png" alt="Around" /><img class="d-lg-none"
