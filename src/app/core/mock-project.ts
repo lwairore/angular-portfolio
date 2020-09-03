@@ -133,7 +133,7 @@ export const PROJECTS: Project[] = [
             }
         ],
         portfolioThumb: `/assets/img/portfolio/angular_connection_detector.gif`,
-        liveLink: `https://lwairore.github.io/connection-aware/connection-aware/`,
+        liveLink: `https://lwairore.github.io/angular-connection-aware/`,
         createdAt: new Date(`Aug 03, 2020`),
         projectGallery: `/assets/img/portfolio/angular_connection_detector.gif`,
         githubRepo: `https://github.com/lwairore/angular-connection-aware`,
@@ -161,7 +161,7 @@ export const PROJECTS: Project[] = [
             },
         ],
         portfolioThumb: `/assets/img/portfolio/hostbinding-example.gif`,
-        liveLink: `https://ginger-pitch.herokuapp.com/`,
+        liveLink: `https://lwairore.github.io/angular-rainbow/`,
         createdAt: new Date(`Jul 29, 2020`),
         projectGallery: `/assets/img/portfolio/hostbinding-example.gif`,
         githubRepo: `https://github.com/lwairore/angular-rainbow`,
